@@ -1,0 +1,22 @@
+.root {
+    -fx-table-cell-border-color: black;
+}
+
+.buy-table-view .column-header-background{
+    -fx-control-inner-background-alt: limegreen;
+    -fx-background-color: darkgreen;
+}
+
+.sell-table-view .column-header-background{
+    -fx-control-inner-background-alt: #aa3333;
+    -fx-background-color: darkred;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
